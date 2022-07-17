@@ -11,10 +11,13 @@ let menu_items = [
     `https://images.unsplash.com/photo-1657811763824-8f42e2d5c657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60`
 ];
 
+function put_images(details){
+    details[`target`]
+}
+
  let menu = document.getElementById(`unique_id`);
  let counter =0;
  for(counter= 0; counter < menu_items.length; counter++){
     menu.insertAdjacentHTML(`beforeEnd`, `<img src ="${menu_items[counter]}"/>`);
  }
-let button = document.getElementById(`unique_button`);
-button[`outerHTML`] = ``;
+
